@@ -1,4 +1,4 @@
-type Car = { make: string; model: string; id: number };
+import {Car} from "../types.ts";
 
 type CarCardProps = {
   car: Car,
