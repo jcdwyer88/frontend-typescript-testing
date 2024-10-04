@@ -7,6 +7,7 @@ describe('Car card test', () => {
 
     it('should show the car header', () => {
         const expectedCar: Car = {
+            id: 1,
             make: 'Tesla',
             model: 'Model Y'
         }
@@ -16,6 +17,7 @@ describe('Car card test', () => {
 
     it('should show the car model', () => {
         const expectedCar: Car = {
+            id: 1,
             make: 'Tesla',
             model: 'Model Y'
         }
@@ -25,6 +27,7 @@ describe('Car card test', () => {
 
     it('should display the make and model of the car passed in', () => {
         const expectedCar: Car = {
+            id: 1,
             make: 'Tesla',
             model: 'Model Y'
         }
