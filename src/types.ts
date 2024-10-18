@@ -1,1 +1,1 @@
-export type Car = { make: string; model: string; id: number };
+export type Car = { make: string; model: string; color: string; seats: number; type: string; id: number };
